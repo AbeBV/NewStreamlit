@@ -53,18 +53,18 @@ def get_dataCSV(filename, indexCol = True,header = True):
 		#return df
 #dfSharpe = get_dataCSV('C:/Users/18479/Documents/Interview Projects/SharpeRatios_1.csv')
 #
-dfSharpe = get_dataCSV('C:/Users/18479/Documents/Interview Projects/SharpeRatios_1.csv')
-dfAlpha = get_dataCSV('C:/Users/18479/Documents/Interview Projects/AlphaOfFunds.csv')
-dfCumulRet_Sharpe = get_dataCSV('C:/Users/18479/Documents/Interview Projects/Cumulative Returns Sharpe.csv')
-dfCumulRet_Alpha = get_dataCSV('C:/Users/18479/Documents/Interview Projects/Cumulative Returns Alpha.csv')
-dfSharpeYearsandWeights =  get_dataCSV('C:/Users/18479/Documents/Interview Projects/Sharpe Weights and Accounts.csv')
-dfAlphaYearsandWeights = get_dataCSV('C:/Users/18479/Documents/Interview Projects/Alpha Weights and Accounts.csv')
-dfFuturePortfolio = get_dataCSV('C:/Users/18479/Documents/Interview Projects/Combined Future Alpha Sharpe Portfolio.csv', False)
+dfSharpe = get_dataCSV('SharpeRatios_1.csv')
+dfAlpha = get_dataCSV('AlphaOfFunds.csv')
+dfCumulRet_Sharpe = get_dataCSV('Cumulative Returns Sharpe.csv')
+dfCumulRet_Alpha = get_dataCSV('Cumulative Returns Alpha.csv')
+dfSharpeYearsandWeights =  get_dataCSV('Sharpe Weights and Accounts.csv')
+dfAlphaYearsandWeights = get_dataCSV('Alpha Weights and Accounts.csv')
+dfFuturePortfolio = get_dataCSV('Combined Future Alpha Sharpe Portfolio.csv', False)
 
 #df = pd.read_excel (r'C:\Users\18479\Downloads\Hedge Fund Data  - Trailing 5-Year Monthly Returns.xlsx')
 
 #df = get_data(r'C:\Users\18479\Downloads\Hedge Fund Data  - Trailing 5-Year Monthly Returns.xlsx')
-df = get_data(r'C:/Users/18479/Documents/Interview Projects/Hedge Fund Data  - Trailing 5-Year Monthly Returns.xlsx')
+df = get_data(r'Hedge Fund Data  - Trailing 5-Year Monthly Returns.xlsx')
 #df = get_dataCSV('C:/Users/18479/Documents/Interview Projects/TEST Hedge Fund Data  - Trailing 5-Year Monthly Returns.xlsx')
 
 #dfCS = get_dataCSV('C:/Users/18479/Documents/Interview Projects/Hedge Fund Data  - Trailing 5-Year Monthly Returns.csv', header = False)
